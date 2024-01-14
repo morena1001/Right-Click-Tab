@@ -1,0 +1,31 @@
+.text {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tab {
+    display: inline-block;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.tab-content {
+   list-style: none;
+   padding: 0px;
+   margin: 0px;
+}
+
+.tab-content a {
+    display: block;
+    /* width: 180px; */
+    padding: 8px 10px;
+    color: black;
+    text-decoration: none;
+    text-shadow: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tab-content a:hover {
+    background-color: #eee;
+}
